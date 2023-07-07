@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace LeaveManagement.web.Data
+namespace LeaveManagement.Web.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
