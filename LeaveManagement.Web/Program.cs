@@ -17,7 +17,6 @@ builder.Services.AddDefaultIdentity<Employee>(options => options.SignIn.RequireC
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
-
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

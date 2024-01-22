@@ -9,6 +9,5 @@ namespace LeaveManagement.Web.Data
         public string? TaxId { get; set; }
         public DateTime DateOfBirth { get; set; }
         public DateTime DateJoined { get; set; }
-
     }
 }
